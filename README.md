@@ -105,7 +105,7 @@ A WordPress plugin to automatically publish posts from any public post type to a
 
 1. **تنظیمات افزونه**:
 
-   - به **تنظیمات &gt; WP Telegram Poster** در پنل مدیریت وردپرس بروید.
+   - به **تنظیمات &gt; تلگرام پوستر وردپرس** در پنل مدیریت وردپرس بروید.
    - موارد زیر را وارد کنید:
      - **کلید مخفی**: یک کلید امن (باید با `SECRET` در ورکر کلادفلیر مطابقت داشته باشد).
      - **آدرس ورکر کلادفلیر**: آدرس ورکر دیپلوی‌شده (مثال: `https://your-worker.your-subdomain.workers.dev`).
