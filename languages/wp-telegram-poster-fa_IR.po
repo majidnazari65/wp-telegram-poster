@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Telegram Poster 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-31 06:55+0200\n"
+"PO-Revision-Date: 2025-05-31 06:55+0200\n"
+"Last-Translator: Your Name <info@aniltarah.com>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4\n"
+
+#: wp-telegram-poster.php:31
+msgid "Send to Telegram"
+msgstr "ارسال به تلگرام"
+
+#: wp-telegram-poster.php:59
+msgid "Unauthorized"
+msgstr "غیرمجاز"
+
+#: wp-telegram-poster.php:63
+msgid "Post is not published"
+msgstr "پست منتشر نشده است"
+
+#: wp-telegram-poster.php:74
+msgid "Plugin settings not configured"
+msgstr "تنظیمات افزونه پیکربندی نشده است"
+
+#: wp-telegram-poster.php:88
+msgid "Failed to send to worker: "
+msgstr "ارسال به ورکر ناموفق بود: "
+
+#: wp-telegram-poster.php:92
+msgid "Sent to Telegram via worker"
+msgstr "از طریق ورکر به تلگرام ارسال شد"
+
+#: wp-telegram-poster.php:94
+msgid "Worker error: "
+msgstr "خطای ورکر: "
+
+#: wp-telegram-poster.php:104
+msgid "WP Telegram Poster Settings"
+msgstr "تنظیمات افزونه تلگرام پوستر"
+
+#: wp-telegram-poster.php:105
+msgid "WP Telegram Poster"
+msgstr "تلگرام پوستر وردپرس"
+
+#: wp-telegram-poster.php:4
+msgid "Adds a button to publish WordPress posts to Telegram via a Cloudflare Worker"
+msgstr "اضافه کردن دکمه ارسال به تلگرام در نوشته‌ها، برگه‌ها و سایر پست تایپ‌ها بدون نیاز به سرور خارج از ایران"
+
+#: wp-telegram-poster.php:127
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: wp-telegram-poster.php:132
+msgid "Secret Key"
+msgstr "کلید مخفی"
+
+#: wp-telegram-poster.php:137
+msgid "Cloudflare Worker URL"
+msgstr "آدرس ورکر کلادفلر"
+
+#: wp-telegram-poster.php:142
+msgid "Telegram Chat ID"
+msgstr "شناسه چت تلگرام"
+
+#: wp-telegram-poster.php:146
+msgid "Enter the Telegram Chat ID (e.g., @YourChannel or a group ID)."
+msgstr "شناسه چت تلگرام را وارد کنید (مانند @YourChannel یا شناسه گروه)."
+
+msgid "Enter the cloudflare worker url."
+msgstr "آدرس ورکر کلادفلر را وارد کنید."
+
+msgid "Enter the secret key. this secret key must used in cludflare worker envirounment valiables."
+msgstr "کلید مخفی (Secret Key) را وارد کنید. این کلید باید در ورکر کلادفلر در قسمت Envirounment valiables ایجاد شود."
+
+#: wp-telegram-poster.php:151
+msgid "Read More Button Text"
+msgstr "متن دکمه بیشتر بخوانید"
+
+#: wp-telegram-poster.php:155
+msgid "Text for the Read More button in Telegram messages."
+msgstr "متن دکمه بیشتر بخوانید در پیام‌های تلگرام."
+
+#: wp-telegram-poster.php:164
+msgid "Enter the secret key, Cloudflare Worker URL, Telegram Chat ID, and Read More button text to connect WordPress to your Telegram bot."
+msgstr "کلید مخفی، آدرس ورکر کلودفلر، شناسه چت تلگرام و متن دکمه بیشتر بخوانید را برای اتصال وردپرس به ربات تلگرام خود وارد کنید."
