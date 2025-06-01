@@ -23,7 +23,7 @@ A WordPress plugin to automatically publish posts from any public post type to a
 1. **Download the Plugin**:
 
    - Clone or download this repository: `git clone https://github.com/yourusername/wp-telegram-poster.git`.
-   - Alternatively, download the ZIP file and extract it.
+   - Alternatively, [download the ZIP file](https://github.com/majidnazari65/wp-telegram-poster/archive/refs/heads/main.zip) and extract it.
 
 2. **Upload to WordPress**:
 
@@ -90,7 +90,7 @@ A WordPress plugin to automatically publish posts from any public post type to a
 1. **دانلود افزونه**:
 
    - این مخزن را کلون کنید یا دانلود کنید: `git clone https://github.com/yourusername/wp-telegram-poster.git`.
-   - یا فایل ZIP را دانلود کرده و استخراج کنید.
+   - یا [فایل ZIP](https://github.com/majidnazari65/wp-telegram-poster/archive/refs/heads/main.zip) را دانلود کرده و استخراج کنید.
 
 2. **آپلود به وردپرس**:
 
