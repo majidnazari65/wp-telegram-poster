@@ -30,11 +30,15 @@ add_action('post_submitbox_misc_actions', 'wptp_add_telegram_button');
 
 // Enqueue JavaScript
 function wptp_enqueue_telegram_script($hook) {
+
     if ($hook == 'post.php' || $hook == 'post-new.php') {
-        wp_enqueue_script('wptp-telegram-script', plugin_dir_url(__FILE__) . 'js/telegram.js', array('jquery'), '1.2', true);
+        // اضافه کردن wp-edit-post و wp-element برای پشتیبانی از گوتنبرگ
+        wp_enqueue_script('wptp-telegram-script', plugin_dir_url(__FILE__) . 'js/telegram.js', array('jquery', 'wp-edit-post', 'wp-element', 'wp-components', 'wp-plugins'), '1.3', true);
+        
         wp_localize_script('wptp-telegram-script', 'telegram_vars', array(
             'ajax_url' => admin_url('admin-ajax.php'),
             'post_id' => get_the_ID(),
+            'button_text' => esc_html__('Send to Telegram', 'wp-telegram-poster')
         ));
     }
 }
